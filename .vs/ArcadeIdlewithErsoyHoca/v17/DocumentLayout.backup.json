@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\basehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\basehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\enemycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\enemycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\EnemyCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\EnemyCharacter.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\EnemyCharacter.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\EnemyCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:37:17.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\InputManager.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\InputManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:34:42.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseHuman.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BaseHuman.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\BaseHuman.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BaseHuman.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\BaseHuman.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:14:51.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
