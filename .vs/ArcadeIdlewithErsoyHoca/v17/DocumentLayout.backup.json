@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\boostarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\boostarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\enemycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\enemycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\basehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\basehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\damagearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\damagearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\herocharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\herocharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\basecharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\basecharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\playercharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\playercharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\temp\\basehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\temp\\basehuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,78 +35,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BoostArea.cs",
-              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BoostArea.cs",
-              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\BoostArea.cs",
-              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BoostArea.cs",
-              "RelativeToolTip": "Assets\\Development\\Classes\\BoostArea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Title": "IInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\IInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\IInteractable.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\IInteractable.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\IInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T07:29:51.034Z",
+              "WhenOpened": "2025-03-11T13:22:20.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DamageArea.cs",
-              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\DamageArea.cs",
-              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\DamageArea.cs",
-              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\DamageArea.cs",
-              "RelativeToolTip": "Assets\\Development\\Classes\\DamageArea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Title": "PlayerCharachter.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\PlayerCharachter.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\PlayerCharachter.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\PlayerCharachter.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\PlayerCharachter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T07:29:45.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:46:59.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HeroCharachter.cs",
-              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\HeroCharachter.cs",
-              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\HeroCharachter.cs",
-              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\HeroCharachter.cs",
-              "RelativeToolTip": "Assets\\Development\\Classes\\HeroCharachter.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBcAAAAYAAAAAAAAAA==",
+              "Title": "BaseHuman.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\Temp\\BaseHuman.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\Temp\\BaseHuman.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\Temp\\BaseHuman.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\Temp\\BaseHuman.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wC8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:13:22.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:43:27.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseCharachter.cs",
+              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BaseCharachter.cs",
+              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\BaseCharachter.cs",
+              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BaseCharachter.cs",
+              "RelativeToolTip": "Assets\\Development\\Classes\\BaseCharachter.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:39:55.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\EnemyCharacter.cs",
-              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\EnemyCharacter.cs",
-              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\EnemyCharacter.cs",
-              "RelativeToolTip": "Assets\\Development\\Classes\\EnemyCharacter.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAhwB8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:37:17.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\InputManager.cs",
               "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InputManager.cs",
               "RelativeToolTip": "Assets\\Development\\Classes\\InputManager.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T09:34:42.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseHuman.cs",
-              "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BaseHuman.cs",
-              "RelativeDocumentMoniker": "Assets\\Development\\Classes\\BaseHuman.cs",
-              "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\BaseHuman.cs",
-              "RelativeToolTip": "Assets\\Development\\Classes\\BaseHuman.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T09:14:51.959Z",
+              "WhenOpened": "2025-03-10T09:34:42.476Z",
               "EditorCaption": ""
             }
           ]
