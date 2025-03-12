@@ -43,9 +43,10 @@ public abstract class BaseCharachter : MonoBehaviour
 
     {
         Vector3 newDir = new Vector3(moveDir.x * _moveSpeed, 0f, moveDir.y * _moveSpeed);
-        Quaternion newRoot= Quaternion.LookRotation(newDir,transform.up);
 
-        transform.rotation = Quaternion.RotateTowards(transform.rotation,newRoot,250*Time.deltaTime);
+        Quaternion newRot= Quaternion.LookRotation(newDir,transform.up);
+
+        transform.rotation = Quaternion.RotateTowards(transform.rotation,newRot,250*Time.deltaTime);
     
     }
 
