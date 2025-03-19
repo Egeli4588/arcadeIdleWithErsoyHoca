@@ -65,6 +65,7 @@
     <Compile Include="Assets\Development\Classes\Temp\EnemyCharacter.cs" />
     <Compile Include="Assets\Development\Classes\PlayerCharachter.cs" />
     <Compile Include="Assets\Development\Classes\Temp\DamageArea.cs" />
+    <Compile Include="Assets\Development\Classes\Shelf.cs" />
     <Compile Include="Assets\Development\Classes\BaseCharachter.cs" />
     <Compile Include="Assets\Development\Classes\Temp\BoostArea.cs" />
     <Compile Include="Assets\Development\Classes\Products\Sneakers.cs" />

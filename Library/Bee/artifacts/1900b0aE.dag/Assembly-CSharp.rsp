@@ -365,6 +365,7 @@
 "Assets/Development/Classes/InteractionAreas/PurchaseArea.cs"
 "Assets/Development/Classes/PlayerCharachter.cs"
 "Assets/Development/Classes/Products/Sneakers.cs"
+"Assets/Development/Classes/Shelf.cs"
 "Assets/Development/Classes/Temp/BaseHuman.cs"
 "Assets/Development/Classes/Temp/BoostArea.cs"
 "Assets/Development/Classes/Temp/DamageArea.cs"

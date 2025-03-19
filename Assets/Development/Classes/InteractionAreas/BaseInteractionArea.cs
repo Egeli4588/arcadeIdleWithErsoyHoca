@@ -13,4 +13,14 @@ public abstract class BaseInteractionArea : MonoBehaviour, IInteractable
     {
         
     }
+
+    public void onInteractionEnd()
+    {
+        
+    }
+
+    public void onInteractionStart(List<GameObject> items)
+    {
+       
+    }
 }

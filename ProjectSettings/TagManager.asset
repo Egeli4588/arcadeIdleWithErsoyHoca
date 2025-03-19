@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DamageArea
   - BoostArea
+  - Shelf
   layers:
   - Default
   - TransparentFX

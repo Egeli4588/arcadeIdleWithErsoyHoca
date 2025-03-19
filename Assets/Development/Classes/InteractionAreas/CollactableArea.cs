@@ -22,6 +22,7 @@ public class CollactableArea : BaseInteractionArea
 
     [SerializeField] protected GameObject _spawnProduct;
     [SerializeField] protected List<Transform> productTransforms;
+    [SerializeField] private float _delayTime;
     private int _index = 0;
 
     //  [SerializeField] private Dictionary<Transform, GameObject> _productsDictionary= new ();  bunu structrdan sonra iptal ediyorum
@@ -67,19 +68,19 @@ public class CollactableArea : BaseInteractionArea
           */
         //---   ürünleri dictionary ile doldurmak Foreach ile  bu çalýþmýyor diðer forla üzerinden geçtik 
 
-     /*   foreach (var o in _productsDictionary)
-        {
+        /*   foreach (var o in _productsDictionary)
+           {
 
-            if (o.Value == null)
-            {
-                GameObject go = Instantiate(_spawnProduct, o.Key.position, Quaternion.identity);
+               if (o.Value == null)
+               {
+                   GameObject go = Instantiate(_spawnProduct, o.Key.position, Quaternion.identity);
 
-                productMap temp = new productMap(o.Key, go);
-                //   _productsDictionary[o.Key] = go;
-                break;
-            }
-        }
-     */   //----- burda oluþturduðumuz tampon dictionary üzerinden iþlemleri gerçekleþtirdik bu da farklý bir sistem
+                   productMap temp = new productMap(o.Key, go);
+                   //   _productsDictionary[o.Key] = go;
+                   break;
+               }
+           }
+        */   //----- burda oluþturduðumuz tampon dictionary üzerinden iþlemleri gerçekleþtirdik bu da farklý bir sistem
         for (int i = 0; i < _productsDictionary.Count; i++)
         {
             if (_productsDictionary[i].Value == null)
@@ -98,11 +99,23 @@ public class CollactableArea : BaseInteractionArea
 
         }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(_delayTime);
         StartCoroutine("spawnProduct");
 
     }
 
+    public void UpdateProductDictionary(GameObject collectedItem)
+    {
 
+
+        for (int i = 0; i < _productsDictionary.Count; i++)
+        {
+            if (_productsDictionary[i].Value == collectedItem)
+            {
+
+                _productsDictionary[i] = new productMap(_productsDictionary[i].Key,null);
+            }
+        }
+    }
 
 }

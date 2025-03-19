@@ -43,7 +43,7 @@ public abstract class BaseCharachter : MonoBehaviour
 
     {
         Vector3 newDir = new Vector3(moveDir.x * _moveSpeed, 0f, moveDir.y * _moveSpeed);
-
+ 
         Quaternion newRot= Quaternion.LookRotation(newDir,transform.up);
 
         transform.rotation = Quaternion.RotateTowards(transform.rotation,newRot,250*Time.deltaTime);
@@ -51,7 +51,7 @@ public abstract class BaseCharachter : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    protected virtual void  OnTriggerEnter(Collider other)
     {
         IInteractable interactable = other.GetComponent<IInteractable>();
         if (interactable != null) 
