@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public abstract class BaseCharachter : MonoBehaviour
+public abstract class BaseCharachter : MonoBehaviour,IInteractable
 {
     protected Rigidbody _rigidbody;
     [SerializeField] protected  float _moveSpeed;
@@ -59,5 +59,20 @@ public abstract class BaseCharachter : MonoBehaviour
             interactable.onInteractionStart();
         
         }
+    }
+
+    public virtual void onInteractionStart()
+    {
+      
+    }
+
+    public void onInteractionStart(List<GameObject> items)
+    {
+       
+    }
+
+    public void onInteractionEnd()
+    {
+       
     }
 }

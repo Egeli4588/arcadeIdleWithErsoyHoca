@@ -5,7 +5,7 @@ using UnityEngine;
 public class PurchaseArea : BaseInteractionArea
 {
     [SerializeField] private GameObject _spawnPrefab;
-
+    private bool _isSpawned = false;
 
 
     protected override void Start()
@@ -16,7 +16,13 @@ public class PurchaseArea : BaseInteractionArea
     {
         base.onInteractionStart();// parentta yer alan fonksiyonlarý çaðýr
 
-        Instantiate(_spawnPrefab,transform.position,transform.rotation);
+        if (!_isSpawned) {
+        
+        GameObject go= Instantiate(_spawnPrefab,transform.position,transform.rotation);
+        GameManager.instance.OnSpawnedArea(go);
+           _isSpawned = true;
+        }
+        
         Destroy(gameObject);
     }
 }

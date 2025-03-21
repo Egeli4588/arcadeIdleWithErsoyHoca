@@ -68,11 +68,14 @@
     <Compile Include="Assets\Development\Classes\Shelf.cs" />
     <Compile Include="Assets\Development\Classes\BaseCharachter.cs" />
     <Compile Include="Assets\Development\Classes\Temp\BoostArea.cs" />
+    <Compile Include="Assets\Development\Classes\GameManager.cs" />
     <Compile Include="Assets\Development\Classes\Products\Sneakers.cs" />
     <Compile Include="Assets\Development\Classes\InteractionAreas\BaseInteractionArea.cs" />
     <Compile Include="Assets\Development\Classes\InteractionAreas\IInteractable.cs" />
+    <Compile Include="Assets\Development\Classes\Cashier.cs" />
     <Compile Include="Assets\Development\Classes\Temp\IDamageArea.cs" />
     <Compile Include="Assets\Development\Classes\InputManager.cs" />
+    <Compile Include="Assets\Development\Classes\AICharacter.cs" />
     <Compile Include="Assets\Development\Classes\Temp\HeroCharachter.cs" />
     <Compile Include="Assets\Development\Classes\InteractionAreas\PurchaseArea.cs" />
   </ItemGroup>

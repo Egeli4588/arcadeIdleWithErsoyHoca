@@ -20,7 +20,7 @@ public struct ShelfMap
 public class Shelf : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject _mesh;
-    private List<ShelfMap> _productsInShelf = new();
+    public List<ShelfMap> _productsInShelf = new();
     private void Start()
     {
         for (int i = 0; i < _mesh.transform.childCount; i++)
@@ -59,6 +59,8 @@ public class Shelf : MonoBehaviour, IInteractable
         }
         foreach (var o in RemoveItems)
         {
+
+
             FindObjectOfType<PlayerCharachter>().RemoveProductFromCollection(o.GetComponent<Sneakers>());
 
         }
@@ -66,6 +68,47 @@ public class Shelf : MonoBehaviour, IInteractable
     public void onInteractionEnd()
     {
 
+    }
+
+    public List<GameObject> GetItemsByCount(int itemCount)
+    {
+        List<GameObject> collectionList = new();
+        for (int i = 0; i < itemCount; i++)
+        {
+            for (int j = 0; j < _productsInShelf.Count; j++)
+            {
+                if (_productsInShelf[j].shelfObject != null)
+                {
+                    collectionList.Add(_productsInShelf[j].shelfObject);
+                    ShelfMap tempMap = new ShelfMap(_productsInShelf[j].shelfTransform, null);
+                    _productsInShelf[j] = tempMap;
+                    break;
+                }
+            }
+
+
+        }
+
+        return collectionList;
+    }
+
+    public bool isThereAnyGameObjectInShelf()
+    {
+        bool result = false;
+
+         for (int i = 0; i < _productsInShelf.Count; i++)
+         {
+             if (_productsInShelf[i].shelfObject != null)
+             {
+                
+                 result = true;
+                 break;
+             }
+           
+         }
+
+     
+        return result;
     }
 }
 

@@ -23,10 +23,25 @@ public class CollactableArea : BaseInteractionArea
     [SerializeField] protected GameObject _spawnProduct;
     [SerializeField] protected List<Transform> productTransforms;
     [SerializeField] private float _delayTime;
-    private int _index = 0;
+    // private int _index = 0;
 
     //  [SerializeField] private Dictionary<Transform, GameObject> _productsDictionary= new ();  bunu structrdan sonra iptal ediyorum
     [SerializeField] private List<productMap> _productsDictionary = new();
+
+    private PlayerCharachter _playerCharachter;
+    private void Awake()
+    {
+        _playerCharachter = FindObjectOfType<PlayerCharachter>();
+
+        _playerCharachter.onItemCollected += UpdateProductDictionary;
+
+    }
+    private void OnDisable()
+    {
+        _playerCharachter.onItemCollected += UpdateProductDictionary;
+    }
+
+
     protected override void Start()
     {
         base.Start();
@@ -40,9 +55,14 @@ public class CollactableArea : BaseInteractionArea
             // _productsDictionary.Add(transform.GetChild(i),null);
             // productTransforms.Add(transform.GetChild(i));
         }
+
+
+
+
         StartCoroutine("spawnProduct");
     }
 
+   
 
     public override void onInteractionStart()
     {
@@ -86,6 +106,7 @@ public class CollactableArea : BaseInteractionArea
             if (_productsDictionary[i].Value == null)
             {
                 GameObject go = Instantiate(_spawnProduct, _productsDictionary[i].Key.position, Quaternion.identity);
+          
 
                 go.transform.parent = _productsDictionary[i].Key.transform;
 
@@ -104,16 +125,16 @@ public class CollactableArea : BaseInteractionArea
 
     }
 
-    public void UpdateProductDictionary(GameObject collectedItem)
+    public void UpdateProductDictionary(Sneakers item, List<Sneakers> itemlist)
     {
 
 
         for (int i = 0; i < _productsDictionary.Count; i++)
         {
-            if (_productsDictionary[i].Value == collectedItem)
+            if (_productsDictionary[i].Value == item.gameObject)
             {
 
-                _productsDictionary[i] = new productMap(_productsDictionary[i].Key,null);
+                _productsDictionary[i] = new productMap(_productsDictionary[i].Key, null);
             }
         }
     }
