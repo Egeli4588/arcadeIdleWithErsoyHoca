@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 286840982009612827}
   - component: {fileID: 1735251209628971663}
   - component: {fileID: 5799329970139131404}
+  - component: {fileID: 8847168630718484758}
   m_Layer: 0
   m_Name: Shelf
   m_TagString: Shelf
@@ -916,6 +917,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mesh: {fileID: 3863029580772350404}
+--- !u!208 &8847168630718484758
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7509008908387327999}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 0.5, z: 2}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -1.15}
+  m_TimeToStationary: 0.5
 --- !u!1 &8254777110839617641
 GameObject:
   m_ObjectHideFlags: 0

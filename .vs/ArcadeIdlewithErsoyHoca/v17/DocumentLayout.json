@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\shelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\shelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\interactionareas\\purchasearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\interactionareas\\purchasearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\aicharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\aicharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\playercharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\playercharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|c:\\users\\ali_u\\onedrive\\belgeler\\github\\arcadeidlewithersoyhoca\\assets\\development\\classes\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\shelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\shelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\interactionareas\\collactablearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\interactionareas\\collactablearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\products\\sneakers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\products\\sneakers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\playercharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\playercharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\interactionareas\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\interactionareas\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\interactionareas\\purchasearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\interactionareas\\purchasearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\products\\sneakers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\products\\sneakers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|solutionrelative:assets\\development\\classes\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB59CA30-70E7-39FB-C4E8-882E6D4BD3B7}|Assembly-CSharp.csproj|C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\assets\\development\\classes\\basecharachter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,38 +58,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Shelf.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\Shelf.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\Shelf.cs",
               "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\Shelf.cs",
               "RelativeToolTip": "Assets\\Development\\Classes\\Shelf.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAMwGoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwGoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T09:02:40.994Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Cashier.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\Cashier.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\Cashier.cs",
               "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\Cashier.cs",
               "RelativeToolTip": "Assets\\Development\\Classes\\Cashier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAMwDMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T08:01:32.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\GameManager.cs",
@@ -97,18 +96,17 @@
               "RelativeToolTip": "Assets\\Development\\Classes\\GameManager.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T11:04:30.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T11:04:30.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AICharacter.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\AICharacter.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\AICharacter.cs",
               "ToolTip": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\AICharacter.cs",
               "RelativeToolTip": "Assets\\Development\\Classes\\AICharacter.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAA0wHMAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAApwIgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T10:38:17.593Z",
               "EditorCaption": ""
@@ -127,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PurchaseArea.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InteractionAreas\\PurchaseArea.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\InteractionAreas\\PurchaseArea.cs",
@@ -135,12 +133,11 @@
               "RelativeToolTip": "Assets\\Development\\Classes\\InteractionAreas\\PurchaseArea.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:20:57.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T10:20:57.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IInteractable.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InteractionAreas\\IInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\InteractionAreas\\IInteractable.cs",
@@ -152,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerCharachter.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\PlayerCharachter.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\PlayerCharachter.cs",
@@ -160,12 +157,11 @@
               "RelativeToolTip": "Assets\\Development\\Classes\\PlayerCharachter.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:46:59.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T11:46:59.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "CollactableArea.cs",
               "DocumentMoniker": "C:\\Users\\ali_u\\OneDrive\\Belgeler\\GitHub\\arcadeIdleWithErsoyHoca\\Assets\\Development\\Classes\\InteractionAreas\\CollactableArea.cs",
               "RelativeDocumentMoniker": "Assets\\Development\\Classes\\InteractionAreas\\CollactableArea.cs",

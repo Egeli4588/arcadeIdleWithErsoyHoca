@@ -92,22 +92,38 @@ public class Shelf : MonoBehaviour, IInteractable
         return collectionList;
     }
 
+
+    public List<GameObject> GetAllItemsInShelf()
+    {
+        List<GameObject> result = new();
+        for (int i = 0; i < _productsInShelf.Count; i++)
+        {
+            if (_productsInShelf[i].shelfObject != null)
+            {
+                result.Add(_productsInShelf[i].shelfObject);
+            }
+        }
+
+        return result;
+    }
+
+
     public bool isThereAnyGameObjectInShelf()
     {
         bool result = false;
 
-         for (int i = 0; i < _productsInShelf.Count; i++)
-         {
-             if (_productsInShelf[i].shelfObject != null)
-             {
-                
-                 result = true;
-                 break;
-             }
-           
-         }
+        for (int i = 0; i < _productsInShelf.Count; i++)
+        {
+            if (_productsInShelf[i].shelfObject != null)
+            {
 
-     
+                result = true;
+                break;
+            }
+
+        }
+
+
         return result;
     }
 }
