@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
-
-
 public enum Squence
 {
     IDLE,
@@ -17,8 +15,8 @@ public class AICharacter : MonoBehaviour
 {
 
     private NavMeshAgent _agent;
-    [SerializeField] private List<Transform> _moveTransforms;
-    [SerializeField] private Transform _finalTransform;
+    private List<Transform> _moveTransforms = new();
+    private Transform _finalTransform;
     [SerializeField] private float speed;
     private List<Shelf> _shelves;
     private List<Cashier> _cashiers;
@@ -39,7 +37,30 @@ public class AICharacter : MonoBehaviour
     {
         GameManager.instance.onShelfSpawned += OnShelfSpawned;
         GameManager.instance.onCashierSpawned += OnCashierSpawned;
-        SetSquenceEnum(Squence.IDLE);
+
+        GameObject movePos = GameObject.Find("AIMoveTransform");
+        for (int i = 0; i < movePos.transform.childCount; i++)
+        {
+            _moveTransforms.Add(movePos.transform.GetChild(i));
+        }
+        GameObject finalPos = GameObject.Find("FinalDestination");
+        _finalTransform = finalPos.transform;
+
+        if (!FindObjectOfType<Shelf>())
+
+        {
+            SetSquenceEnum(Squence.IDLE);
+        }
+        else
+        {
+
+            SetSquenceEnum(Squence.SHOPPING);
+        }
+
+
+
+
+
     }
 
     private void OnDisable()
@@ -58,7 +79,6 @@ public class AICharacter : MonoBehaviour
     {
         _cashiers = cashiers;
     }
-
 
     public void SetSquenceEnum(Squence newState)
     {
@@ -90,9 +110,15 @@ public class AICharacter : MonoBehaviour
 
     private bool IsThereAnyCashier()
     {
-        //  ternary
-        return _cashiers != null;
+        bool result = false;
+        if (FindObjectOfType<Cashier>())
 
+        {
+            result = true;
+
+        }
+
+        return result;
 
     }
 
@@ -102,7 +128,7 @@ public class AICharacter : MonoBehaviour
         int ranIdx = UnityEngine.Random.Range(0, _moveTransforms.Count - 1);
         while (Vector3.Distance(transform.position, _moveTransforms[ranIdx].position) > .1f)
         {
-            /* transform.position = Vector3.MoveTowards(transform.position, _moveTransforms[ranIdx].position, speed * Time.deltaTime);*/
+
 
             _agent.destination = _moveTransforms[ranIdx].position;
 
@@ -120,40 +146,80 @@ public class AICharacter : MonoBehaviour
     }
     private IEnumerator ShoppingCoroutine()
     {
-        while (Vector3.Distance(transform.position, _shelves[0].transform.position) > 2.5f)
+        FindObjectOfType<Shelf>().AddCustomerToQueue(this.gameObject);
+
+
+        bool goNext = true;
+
+        while (goNext)
         {
-            /* transform.position =
-                         Vector3.MoveTowards(transform.position, _shelves[0].transform.position, speed * Time.deltaTime);*/
-            _agent.destination = _shelves[0].transform.position;
+            _agent.destination = FindObjectOfType<Shelf>().GetLocationForSpecificCustomer(gameObject);
+
+            if (Vector3.Distance(transform.position, FindObjectOfType<Shelf>().GetLocationForSpecificCustomer(gameObject)) < 1f)
+
+            {
+                if (FindObjectOfType<Shelf>().GetCustomerIndex(gameObject) == 0)
+                {
+
+                    goNext = false;
+
+                }
+
+            }
+
             yield return new WaitForEndOfFrame();
         }
+
+
         //..
 
         while (!FindObjectOfType<Shelf>().isThereAnyGameObjectInShelf())
         {
             yield return new WaitForSeconds(1);
         }
+
+
         int _productCount = FindObjectOfType<Shelf>().GetAllItemsInShelf().Count;
         int randItemCount = Random.Range(1, _productCount);
         AddProductsToShoppingCard(randItemCount);
+
+
         yield return new WaitForSeconds(2f);
         while (!IsThereAnyCashier())
         {
             yield return new WaitForSeconds(1f);
         }
 
-        SetSquenceEnum(Squence.PAYMENT);
 
+        FindObjectOfType<Shelf>().RemoveCustomerFromQueue(gameObject);
+
+        SetSquenceEnum(Squence.PAYMENT);
 
     }
     private IEnumerator PaymentCoroutine()
     {
-        while (Vector3.Distance(transform.position, _cashiers[0].transform.position) > 2.5f)
+        FindObjectOfType<Cashier>().AddCustomerToQueue(this.gameObject);
+        bool goNext = true;
+        while (goNext)
         {
-            /* transform.position =
-                         Vector3.MoveTowards(transform.position, _cashiers[0].transform.position, speed * Time.deltaTime);*/
 
-            _agent.destination = _cashiers[0].transform.position;
+
+            _agent.destination = FindObjectOfType<Cashier>().GetLocationForSpecificCustomer(gameObject);
+
+            if (Vector3.Distance(transform.position,
+               FindObjectOfType<Cashier>().GetLocationForSpecificCustomer(gameObject)) < .6f)
+
+            {
+                if (FindObjectOfType<Cashier>().GetCustomerIndex(gameObject) == 0)
+                {
+
+                    goNext = false;
+
+                }
+
+            }
+
+
             yield return new WaitForEndOfFrame();
         }
 
@@ -170,20 +236,30 @@ public class AICharacter : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
+        FindObjectOfType<Cashier>().RemoveCustomerFromQueue(gameObject);
+
+        foreach (var item in _shoppingItemsList)
+        {
+            ProductItem it = item.GetComponent<ProductItem>();
+            if (item != null)
+            {
+                FindObjectOfType<CurrencyManager>().UpdateCoin(it._price);
+
+            }
+        }
+
         SetSquenceEnum(Squence.HOME);
 
     }
 
-    private IEnumerator HomeCoroutine() 
+    private IEnumerator HomeCoroutine()
     {
         while (Vector3.Distance(transform.position, _finalTransform.position) > 2.5f)
         {
-            /* transform.position =
-                         Vector3.MoveTowards(transform.position, _cashiers[0].transform.position, speed * Time.deltaTime);*/
-
             _agent.destination = _finalTransform.position;
             yield return new WaitForEndOfFrame();
         }
+        FindObjectOfType<AiSpawner>().DecreaseCapacity();
         Destroy(gameObject);
 
     }

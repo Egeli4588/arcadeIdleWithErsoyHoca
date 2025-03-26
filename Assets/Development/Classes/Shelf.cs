@@ -21,6 +21,12 @@ public class Shelf : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject _mesh;
     public List<ShelfMap> _productsInShelf = new();
+
+    [SerializeField] private Transform _queueTransform;
+    [SerializeField] private List<GameObject> _queueList = new();
+
+
+
     private void Start()
     {
         for (int i = 0; i < _mesh.transform.childCount; i++)
@@ -125,6 +131,35 @@ public class Shelf : MonoBehaviour, IInteractable
 
 
         return result;
+    }
+
+    public void AddCustomerToQueue(GameObject customer)
+    {
+     
+        _queueList.Add(customer);
+    }
+
+    public void RemoveCustomerFromQueue(GameObject customer)
+    {
+        _queueList.Remove(customer);
+    }
+
+ 
+    public Vector3 GetLocationForSpecificCustomer(GameObject customer) 
+    {
+        Vector3 newLocation = _queueTransform.position + (_queueTransform.transform.forward * (_queueList.IndexOf(customer)*2.5f ));
+        return newLocation;
+    }
+    public int GetCustomerIndex(GameObject customer)
+
+    {
+        int result = -1;
+        if (_queueList.Contains(customer))
+        {
+            result = _queueList.IndexOf(customer);
+        }
+        return result;
+
     }
 }
 

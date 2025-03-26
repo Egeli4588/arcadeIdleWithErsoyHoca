@@ -21,6 +21,8 @@ public struct CashierMap
 public class Cashier : MonoBehaviour
 {
     public List<CashierMap> cashierMaps;
+    [SerializeField] private Transform _queueTransform;
+    [SerializeField] private List<GameObject> _queueList = new();
 
     public void AddProductToCashier(List<GameObject> product)
     {
@@ -47,16 +49,47 @@ public class Cashier : MonoBehaviour
     public List<GameObject> CollectProductsFromCashier()
     {
         List<GameObject> result = new();
-        foreach (var item in cashierMaps)
+        for (int j = 0; j < cashierMaps.Count; j++) 
+        
         {
-            if (item.cashierObject != null)
+            if (cashierMaps[j].cashierObject !=null)
             {
-                result.Add(item.cashierObject);
+                result.Add(cashierMaps[j].cashierObject);
+                CashierMap tempMap = new CashierMap(cashierMaps[j].cashierTransform, null);
+                cashierMaps[j] = tempMap;
             }
-
         }
 
         return result;
+    }
+
+    public void AddCustomerToQueue(GameObject customer)
+    {
+
+        _queueList.Add(customer);
+    }
+
+    public void RemoveCustomerFromQueue(GameObject customer)
+    {
+        _queueList.Remove(customer);
+    }
+
+
+    public Vector3 GetLocationForSpecificCustomer(GameObject customer)
+    {
+        Vector3 newLocation = _queueTransform.position + (_queueTransform.transform.forward * (_queueList.IndexOf(customer) * 2.5f));
+        return newLocation;
+    }
+    public int GetCustomerIndex(GameObject customer)
+
+    {
+        int result = -1;
+        if (_queueList.Contains(customer))
+        {
+            result = _queueList.IndexOf(customer);
+        }
+        return result;
+
     }
 
 }
